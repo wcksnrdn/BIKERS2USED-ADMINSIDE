@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9938A8E4-952E-4624-979B-E7F6D0197A30}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PROJECT_UTS_SATRIA_ARDAN.My.MyApplication</StartupObject>
+    <RootNamespace>PROJECT_UTS_SATRIA_ARDAN</RootNamespace>
+    <AssemblyName>PROJECT UTS SATRIA ARDAN</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PROJECT UTS SATRIA ARDAN.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PROJECT UTS SATRIA ARDAN.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BCA.Designer.vb">
+      <DependentUpon>BCA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BIKERS2USED.Designer.vb">
+      <DependentUpon>BIKERS2USED.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BIKERS2USED.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BNI.Designer.vb">
+      <DependentUpon>BNI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BNI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BRI.Designer.vb">
+      <DependentUpon>BRI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BRI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BSI.Designer.vb">
+      <DependentUpon>BSI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BSI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dana.Designer.vb">
+      <DependentUpon>Dana.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dana.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBS.Designer.vb">
+      <DependentUpon>DBS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DBS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ducati.Designer.vb">
+      <DependentUpon>Ducati.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ducati.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gopay.Designer.vb">
+      <DependentUpon>Gopay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gopay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kawasaki.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kawasaki.Designer.vb">
+      <DependentUpon>Kawasaki.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MANDIRI.Designer.vb">
+      <DependentUpon>MANDIRI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MANDIRI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Ovo.Designer.vb">
+      <DependentUpon>Ovo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ovo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment.Designer.vb">
+      <DependentUpon>Payment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase Ducati.Designer.vb">
+      <DependentUpon>Purchase Ducati.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase Ducati.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase Kawasaki.Designer.vb">
+      <DependentUpon>Purchase Kawasaki.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase Kawasaki.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BCA.resx">
+      <DependentUpon>BCA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIKERS2USED.resx">
+      <DependentUpon>BIKERS2USED.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BNI.resx">
+      <DependentUpon>BNI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BRI.resx">
+      <DependentUpon>BRI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BSI.resx">
+      <DependentUpon>BSI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dana.resx">
+      <DependentUpon>Dana.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBS.resx">
+      <DependentUpon>DBS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ducati.resx">
+      <DependentUpon>Ducati.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gopay.resx">
+      <DependentUpon>Gopay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kawasaki.resx">
+      <DependentUpon>Kawasaki.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MANDIRI.resx">
+      <DependentUpon>MANDIRI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ovo.resx">
+      <DependentUpon>Ovo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase Ducati.resx">
+      <DependentUpon>Purchase Ducati.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase Kawasaki.resx">
+      <DependentUpon>Purchase Kawasaki.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Differences_awM6ICnCM6o.mp3" />
+    <None Include="Resources\Differences_awM6ICnCM6o.mp3" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
